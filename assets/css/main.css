@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 @-moz-keyframes spinner {
 	0% {
 		-moz-transform: rotate(0deg);
@@ -102,28 +96,24 @@ ol, ul {
 }
 
 .btn {
-	background-color: transparent;
+	background-color: black; /* Color llamativo por defecto: rojo coral */
 	color: #ffffff;
-	border: 1px solid #ffffff88;
+	border: none;
 	padding: 12px 28px;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 600;
 	font-family: 'Segoe UI', Roboto, sans-serif;
 	border-radius: 12px;
 	cursor: pointer;
 	transition: all 0.3s ease;
-	backdrop-filter: none;
-	-webkit-backdrop-filter: none;
-	box-shadow: 0 0 0 rgba(0,0,0,0);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+	margin-top: -5px; /* Ajusta según lo que necesites */
 }
 
 .btn:hover {
-	background-color: rgba(255, 255, 255, 0.1);
-	backdrop-filter: blur(6px);
-	-webkit-backdrop-filter: blur(6px);
-	box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
-	border: 1px solid #ffffff44;
-	transform: translateY(-1px);
+	background-color: white; /* Rojo más fuerte al pasar el mouse */
+	transform: translateY(-2px);
+	box-shadow: 0 6px 18px rgba(255, 26, 26, 0.5);
 }
 
 blockquote, q {
